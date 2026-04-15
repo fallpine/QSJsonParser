@@ -14,7 +14,32 @@
 		1F38816D2EF9784000DA7724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881652EF9784000DA7724 /* SceneDelegate.swift */; };
 		1F38816E2EF9784000DA7724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881662EF9784000DA7724 /* ViewController.swift */; };
 		1F3881742EF9785800DA7724 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3881722EF9785800DA7724 /* JsonParser.swift */; };
+		B9D9614C2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B9D9614B2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9D9614D2F8F6B0E00B540DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F38813E2EF9782F00DA7724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9D9614A2F8F6B0E00B540DA;
+			remoteInfo = "QSJsonParserWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9D961592F8F6B1000B540DA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B9D9614C2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1F3881462EF9782F00DA7724 /* QSJsonParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSJsonParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +51,27 @@
 		1F3881652EF9784000DA7724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F3881662EF9784000DA7724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1F3881722EF9785800DA7724 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		B9D961462F8F6B0E00B540DA /* QSJsonParserWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSJsonParserWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D9614B2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QSJsonParserWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B9D9614F2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QSJsonParserWatch Watch App";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1F3881432EF9782F00DA7724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D961482F8F6B0E00B540DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				1F3881672EF9784000DA7724 /* QSJsonParser */,
+				B9D9614F2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */,
 				1F3881472EF9782F00DA7724 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				1F3881462EF9782F00DA7724 /* QSJsonParser.app */,
+				B9D961462F8F6B0E00B540DA /* QSJsonParserWatch.app */,
+				B9D9614B2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +145,47 @@
 			productReference = 1F3881462EF9782F00DA7724 /* QSJsonParser.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B9D961452F8F6B0E00B540DA /* QSJsonParserWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D9615A2F8F6B1000B540DA /* Build configuration list for PBXNativeTarget "QSJsonParserWatch" */;
+			buildPhases = (
+				B9D961442F8F6B0E00B540DA /* Resources */,
+				B9D961592F8F6B1000B540DA /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9D9614E2F8F6B0E00B540DA /* PBXTargetDependency */,
+			);
+			name = QSJsonParserWatch;
+			packageProductDependencies = (
+			);
+			productName = QSJsonParserWatch;
+			productReference = B9D961462F8F6B0E00B540DA /* QSJsonParserWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		B9D9614A2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9D961562F8F6B1000B540DA /* Build configuration list for PBXNativeTarget "QSJsonParserWatch Watch App" */;
+			buildPhases = (
+				B9D961472F8F6B0E00B540DA /* Sources */,
+				B9D961482F8F6B0E00B540DA /* Frameworks */,
+				B9D961492F8F6B0E00B540DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B9D9614F2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */,
+			);
+			name = "QSJsonParserWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "QSJsonParserWatch Watch App";
+			productReference = B9D9614B2F8F6B0E00B540DA /* QSJsonParserWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -107,11 +193,17 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
+				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					1F3881452EF9782F00DA7724 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					B9D961452F8F6B0E00B540DA = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					B9D9614A2F8F6B0E00B540DA = {
+						CreatedOnToolsVersion = 26.4;
 					};
 				};
 			};
@@ -130,6 +222,8 @@
 			projectRoot = "";
 			targets = (
 				1F3881452EF9782F00DA7724 /* QSJsonParser */,
+				B9D961452F8F6B0E00B540DA /* QSJsonParserWatch */,
+				B9D9614A2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +236,20 @@
 				1F3881682EF9784000DA7724 /* Assets.xcassets in Resources */,
 				1F38816A2EF9784000DA7724 /* LaunchScreen.storyboard in Resources */,
 				1F38816B2EF9784000DA7724 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D961442F8F6B0E00B540DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9D961492F8F6B0E00B540DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,7 +267,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9D961472F8F6B0E00B540DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9D9614E2F8F6B0E00B540DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9D9614A2F8F6B0E00B540DA /* QSJsonParserWatch Watch App */;
+			targetProxy = B9D9614D2F8F6B0E00B540DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1F3881622EF9784000DA7724 /* LaunchScreen.storyboard */ = {
@@ -358,6 +481,100 @@
 			};
 			name = Release;
 		};
+		B9D961572F8F6B1000B540DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSJsonParserWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.QSJsonParserWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Debug;
+		};
+		B9D961582F8F6B1000B540DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSJsonParserWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.QSJsonParserWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.4;
+			};
+			name = Release;
+		};
+		B9D9615B2F8F6B1000B540DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QSJsonParserWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.QSJsonParserWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B9D9615C2F8F6B1000B540DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = QSJsonParserWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sfd.QSJsonParserWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -375,6 +592,24 @@
 			buildConfigurations = (
 				1F38815A2EF9783000DA7724 /* Debug */,
 				1F38815B2EF9783000DA7724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D961562F8F6B1000B540DA /* Build configuration list for PBXNativeTarget "QSJsonParserWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D961572F8F6B1000B540DA /* Debug */,
+				B9D961582F8F6B1000B540DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9D9615A2F8F6B1000B540DA /* Build configuration list for PBXNativeTarget "QSJsonParserWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D9615B2F8F6B1000B540DA /* Debug */,
+				B9D9615C2F8F6B1000B540DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
