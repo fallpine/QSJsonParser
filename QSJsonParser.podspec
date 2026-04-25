@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "QSJsonParser"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "Json解析器"
   spec.description  = "封装系统方法，对Json数据进行解析"
   spec.homepage     = "https://github.com/fallpine/QSJsonParser"
